@@ -1,31 +1,68 @@
 <!doctype html>
 <html lang="ko">
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>개인정보처리방침</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, "Noto Sans KR", Arial, sans-serif; line-height: 1.6; margin: 24px; }
+    h1 { margin-top: 0; }
+    h2 { margin-top: 28px; }
+    ul { padding-left: 18px; }
+    .meta { color: #555; font-size: 14px; }
+    .box { background: #f6f8fa; padding: 12px 14px; border-radius: 10px; }
+  </style>
 </head>
+
 <body>
   <h1>개인정보처리방침</h1>
+  <p class="meta">본 개인정보처리방침은 <strong>[엘리베이터 공기청정기 제어]</strong>(이하 “본 앱”)이 이용자의 개인정보를 어떻게 처리하는지 설명합니다.</p>
 
-  <p>
-    본 애플리케이션은 사용자의 개인정보를 수집, 저장, 처리하지 않습니다.
+  <h2>1. 개인정보의 수집 및 이용</h2>
+  <div class="box">
+    <p><strong>본 앱은 이용자의 개인정보를 수집·저장·전송하지 않습니다.</strong></p>
+    <ul>
+      <li>이름, 이메일, 전화번호 등 개인 식별 정보</li>
+      <li>위치 정보(정확/대략 위치)</li>
+      <li>연락처</li>
+      <li>사진, 동영상, 오디오</li>
+      <li>기기 고유 식별자(광고 ID 등)</li>
+      <li>사용 기록, 로그 정보</li>
+      <li>기타 Google Play 정책에서 정의하는 개인정보</li>
+    </ul>
+    <p>본 앱은 회원가입/로그인 기능이 없으며, 어떠한 개인정보도 서버로 전송하거나 저장하지 않습니다.</p>
+  </div>
+
+  <h2>2. 블루투스(BLE) 기능 사용 안내</h2>
+  <p>본 앱은 주변 BLE(저전력 블루투스) 기기와의 <strong>연결 및 통신</strong> 기능을 제공하기 위해 블루투스 관련 권한을 사용할 수 있습니다.</p>
+  <ul>
+    <li><strong>사용 목적:</strong> BLE 기기 검색(스캔), 연결, 데이터 송수신</li>
+    <li><strong>처리 방식:</strong> BLE 통신은 사용자의 기기 내에서 수행되며, BLE를 통해 수집된 데이터(예: 기기 상태값 등)는 <strong>서버로 전송하지 않고</strong> 앱 기능 제공을 위해 기기 내에서만 사용됩니다.</li>
+    <li><strong>권한 거부 시:</strong> 블루투스 기능(기기 검색/연결/통신)이 정상 동작하지 않을 수 있습니다.</li>
+  </ul>
+  <p class="meta">
+    ※ Android 버전에 따라 BLE 스캔/연결을 위해 BLUETOOTH 관련 권한이 필요할 수 있으며,
+    일부 버전에서는 시스템 정책에 따라 근처 기기(블루투스) 권한이 요구될 수 있습니다.
   </p>
 
-  <p>
-    본 앱은 로그인, 위치 정보, 연락처, 카메라, 마이크, 광고 ID,
-    분석 도구를 사용하지 않습니다.
-  </p>
+  <h2>3. 제3자 제공 및 위탁</h2>
+  <p>본 앱은 이용자의 개인정보를 제3자에게 제공하거나 외부 업체에 위탁하지 않습니다.</p>
+  <p>또한 광고/분석/추적을 위한 제3자 SDK를 사용하지 않습니다.</p>
 
-  <p>
-    개인정보와 관련된 문의사항은 아래 이메일로 연락 바랍니다.
-  </p>
+  <h2>4. 개인정보 보유 및 이용 기간</h2>
+  <p>본 앱은 개인정보를 수집하지 않으므로 개인정보의 보유 및 이용 기간에 해당하는 사항이 없습니다.</p>
 
-  <p>
-    이메일: oghm@naver.com
-  </p>
+  <h2>5. 이용자의 권리</h2>
+  <p>본 앱은 개인정보를 수집하지 않으므로 열람, 수정, 삭제, 처리 정지 요청 대상이 되는 개인정보가 존재하지 않습니다.</p>
 
-  <p>
-    최종 수정일: 2026-01-06
-  </p>
+  <h2>6. 문의</h2>
+  <p>본 개인정보처리방침에 대한 문의사항은 아래 이메일로 연락 주시기 바랍니다.</p>
+  <ul>
+    <li>이메일: <strong>oghm@naver.com</strong></li>
+  </ul>
+
+  <h2>7. 개인정보처리방침 변경</h2>
+  <p>본 개인정보처리방침은 법령 또는 정책 변경에 따라 수정될 수 있으며, 변경 시 본 페이지를 통해 공지합니다.</p>
+  <p class="meta">시행일자: <strong>2026-01-06</strong></p>
 </body>
 </html>
